@@ -1,24 +1,42 @@
-\# 🧠 RNN Text Classification using TensorFlow
+\# 🧠 RNN Text Classification
 
 
 
-A deep learning-based text classification application built with \*\*TensorFlow\*\*, \*\*Keras\*\*, and \*\*Streamlit\*\*. This project uses a Recurrent Neural Network (RNN) to analyze text input and predict its corresponding class through an interactive web interface.
+A Deep Learning-based \*\*Text Classification\*\* web application built using \*\*TensorFlow, Keras, and Streamlit\*\*. The application preprocesses user input, converts text into sequences using a trained tokenizer, and predicts sentiment using a Recurrent Neural Network (RNN).
 
 
 
-\## 🚀 Features
+\## 🌐 Live Demo
 
 
 
-\- 📖 Text preprocessing and tokenization
+\*\*Live App:\*\* https://rnn-text-classification.onrender.com
 
-\- 🧠 RNN model built with TensorFlow/Keras
 
-\- ⚡ Real-time predictions using Streamlit
 
-\- 🎨 Simple and user-friendly interface
+\## 📖 Project Overview
 
-\- 📊 Deep Learning-based text classification
+
+
+This project demonstrates the implementation of a Recurrent Neural Network (RNN) for text sentiment classification. Users can enter text into a Streamlit interface, and the trained model predicts whether the sentiment is \*\*Positive\*\* or \*\*Negative\*\*.
+
+
+
+\## ✨ Features
+
+
+
+\- Deep Learning-based sentiment classification
+
+\- Interactive Streamlit web application
+
+\- Real-time predictions
+
+\- Text preprocessing and tokenization
+
+\- TensorFlow/Keras model
+
+\- Deployed on Render
 
 
 
@@ -38,21 +56,29 @@ A deep learning-based text classification application built with \*\*TensorFlow\
 
 \- Scikit-learn
 
+\- Pickle
+
+\- Render
+
 
 
 \## 📂 Project Structure
 
 
 
-```
+```text
 
-RNN-Project/
+RNN-Text-Classification/
 
 │── app.py
 
 │── model.keras
 
+│── tokenizer.pkl
+
 │── requirements.txt
+
+│── .python-version
 
 │── README.md
 
@@ -60,7 +86,7 @@ RNN-Project/
 
 
 
-\## ⚙️ Installation
+\## 🚀 Installation
 
 
 
@@ -70,15 +96,25 @@ Clone the repository:
 
 ```bash
 
-git clone https://github.com/YOUR\_USERNAME/RNN-Project.git
-
-cd RNN-Project
+git clone https://github.com/jatin-kumar210/RNN-Text-Classification.git
 
 ```
 
 
 
-Install dependencies:
+Move into the project directory:
+
+
+
+```bash
+
+cd RNN-Text-Classification
+
+```
+
+
+
+Install the required packages:
 
 
 
@@ -102,35 +138,47 @@ streamlit run app.py
 
 
 
-\## 📸 Demo
+\## 🎯 How to Use
 
 
 
-Add screenshots of your Streamlit application here.
+1\. Launch the application.
+
+2\. Enter a sentence in the text box.
+
+3\. Click \*\*Predict\*\*.
+
+4\. View the predicted sentiment.
 
 
 
-| Home Page | Prediction |
-
-|-----------|------------|
-
-| !\[Home](images/home.png) | !\[Prediction](images/prediction.png) |
+\## 📊 Model Information
 
 
 
-\## 📈 Future Improvements
+\- \*\*Model:\*\* Recurrent Neural Network (RNN)
+
+\- \*\*Framework:\*\* TensorFlow/Keras
+
+\- \*\*Input Processing:\*\* Tokenization \& Sequence Padding
+
+\- \*\*Output:\*\* Sentiment Classification (Positive/Negative)
 
 
 
-\- Improve model accuracy
+\## 🔮 Future Improvements
 
-\- Add more preprocessing techniques
 
-\- Deploy on Streamlit Community Cloud
 
-\- Support multiple datasets
+\- Improve model accuracy with larger datasets
 
-\- Enhance UI/UX
+\- Add confidence scores
+
+\- Support multi-class sentiment analysis
+
+\- Add attention mechanism or LSTM/GRU models
+
+\- Docker deployment
 
 
 
@@ -138,7 +186,7 @@ Add screenshots of your Streamlit application here.
 
 
 
-Contributions, suggestions, and improvements are welcome.
+Contributions are welcome. Feel free to fork the repository, improve the project, and submit a pull request.
 
 
 
@@ -150,7 +198,9 @@ Contributions, suggestions, and improvements are welcome.
 
 
 
-AI \& ML Enthusiast | Deep Learning | TensorFlow | Python
+\- GitHub: https://github.com/jatin-kumar210
+
+\- LinkedIn: \*(Add your LinkedIn profile)\*
 
 
 
@@ -158,5 +208,5 @@ AI \& ML Enthusiast | Deep Learning | TensorFlow | Python
 
 
 
-⭐ If you found this project useful, consider giving it a star.
+⭐ \*\*If you found this project useful, consider giving it a star!\*\*
 
