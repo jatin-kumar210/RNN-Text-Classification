@@ -12,7 +12,7 @@ with open("tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
 
 # Same maxlen used during training
-maxlen = 6
+maxlen = 7
 
 # -------------------------
 # Streamlit UI
